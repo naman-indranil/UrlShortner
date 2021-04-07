@@ -17,4 +17,4 @@ app.get('/success',routes);
 app.post('/shortUrls',routes);
 app.get('/:shortUrl',routes);
 app.get('/logout',routes);
-app.listen(process.env.PORT || 3000 , ()=>console.log("SERVER STARTED"));
+app.listen(process.env.PORT || 4000 , ()=>console.log("SERVER STARTED"));
